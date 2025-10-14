@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/FluidGroup/PrecisionLevelSlider",
       "state" : {
-        "revision" : "3e460c1cea5ec916f7185948bc0a4e093e20f7a5",
-        "version" : "2.1.0"
+        "revision" : "d16becc518758b6f984ff07f8e8c6a0fa9245492",
+        "version" : "2.2.0"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ReactiveX/RxSwift.git",
       "state" : {
-        "revision" : "7e01c05f25c025143073eaa3be3532f9375c614b",
-        "version" : "6.1.0"
+        "revision" : "5dd1907d64f0d36f158f61a466bab75067224893",
+        "version" : "6.9.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-atomics.git",
       "state" : {
-        "revision" : "ff3d2212b6b093db7f177d0855adbc4ef9c5f036",
-        "version" : "1.0.3"
+        "revision" : "b601256eab081c0f92f059e12818ac1d4f178ff7",
+        "version" : "1.3.0"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections",
       "state" : {
-        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
-        "version" : "1.1.0"
+        "revision" : "7b847a3b7008b2dc2f47ca3110d8c782fb2e5c7e",
+        "version" : "1.3.0"
       }
     },
     {
@@ -41,17 +41,26 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/VergeGroup/swift-concurrency-task-manager",
       "state" : {
-        "revision" : "9f686139a7d08ecca12d64a7a9bdf81cb1a1c986",
-        "version" : "1.2.0"
+        "revision" : "340cf14e0282977deeeb436605d1810ce4f4fbc9",
+        "version" : "1.4.0"
       }
     },
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
       "state" : {
-        "revision" : "0687f71944021d616d34d922343dcef086855920",
-        "version" : "600.0.1"
+        "revision" : "4799286537280063c85a32f09884cfbca301b1a1",
+        "version" : "602.0.0"
+      }
+    },
+    {
+      "identity" : "swift-verge",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wenext-limited/swift-verge",
+      "state" : {
+        "revision" : "fcc6ef4024e638e93e1528b25617f92007f42581",
+        "version" : "12.5.1"
       }
     },
     {
@@ -59,8 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/FluidGroup/swiftui-Hosting",
       "state" : {
-        "revision" : "7e8eaca72eae910d6d3b6272c263c6c3a10b755c",
-        "version" : "1.2.0"
+        "revision" : "b929e05249aef39c24470daac68c2df93e418e34",
+        "version" : "2.5.0"
       }
     },
     {
@@ -70,15 +79,6 @@
       "state" : {
         "revision" : "88aac5305fe568ef62f73a3cf19f0b8392ffb52c",
         "version" : "1.0.5"
-      }
-    },
-    {
-      "identity" : "verge",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/VergeGroup/Verge.git",
-      "state" : {
-        "revision" : "ea8f1e54ceec3078215762ca6ea73c7b93fc266c",
-        "version" : "12.5.0"
       }
     }
   ],

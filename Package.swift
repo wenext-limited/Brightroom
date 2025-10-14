@@ -12,22 +12,31 @@ let package = Package(
     .library(name: "BrightroomUIPhotosCrop", targets: ["BrightroomUIPhotosCrop"])
   ],
   dependencies: [
-    .package(url: "https://github.com/VergeGroup/Verge", from: "12.5.0"),
+    .package(url: "https://github.com/wenext-limited/swift-verge", from: "12.5.0"),
     .package(url: "https://github.com/FluidGroup/TransitionPatch", from: "1.0.3"),
     .package(url: "https://github.com/FluidGroup/PrecisionLevelSlider", from: "2.1.0"),
   ],
   targets: [
     .target(
       name: "BrightroomEngine",
-      dependencies: ["Verge"]
+      dependencies: [
+        .product(name: "Verge", package: "swift-verge"),
+      ]
     ),
     .target(
       name: "BrightroomUI",
-      dependencies: ["BrightroomEngine", "Verge", "TransitionPatch"]
+      dependencies: [
+        "BrightroomEngine",
+        "TransitionPatch",
+        .product(name: "Verge", package: "swift-verge"),
+      ]
     ),
     .target(
       name: "BrightroomUIPhotosCrop",
-      dependencies: ["BrightroomUI", "PrecisionLevelSlider"]
+      dependencies: [
+        "BrightroomUI", 
+        "PrecisionLevelSlider"
+      ]
     )
   ]
 )
