@@ -186,7 +186,7 @@ public final class BlurryMaskingView: PixelEditorCodeBasedView, UIScrollViewDele
       
       if let state = state.mapIfPresent(\.loadedState) {
 
-        state.ifChanged(\.currentEdit.crop).do { cropRect in
+        state.ifChanged(\.currentEdit.crop) { cropRect in
 
           // scaling for drawing paths
           [self.canvasView, self.drawingView].forEach { view in

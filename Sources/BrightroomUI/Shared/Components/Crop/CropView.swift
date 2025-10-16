@@ -407,11 +407,11 @@ public final class CropView: UIView, UIScrollViewDelegate {
 
           if let loaded = state.mapIfPresent(\.loadedState) {
 
-            loaded.ifChanged(\.imageForCrop).do { image in
+            loaded.ifChanged(\.imageForCrop) { image in
               self.setImage(image)
             }
 
-            loaded.ifChanged(\.currentEdit.crop).do { crop in
+            loaded.ifChanged(\.currentEdit.crop) { crop in
               self.setCrop(loaded.currentEdit.crop)
             }
 
